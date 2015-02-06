@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
             case R.id.action_settings:
                 Intent i = new Intent();
                 i.putExtra("nombre","luis");
-                i.setClass(MainActivity.this, SplashActivity.class);
+                i.setClass(MainActivity.this, contacto.class);
                 startActivity(i);
                 return true;
             case R.id.action_quienes_somos:
