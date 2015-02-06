@@ -7,13 +7,12 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class contacto extends ActionBarActivity {
+public class como_llegar extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contacto);
+        setContentView(R.layout.activity_como_llegar);
     }
 
 

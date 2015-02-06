@@ -28,7 +28,25 @@
         </activity>
         <activity
             android:name="lb.app.teatrosnchezaguilar.module.contacto"
-            android:label="@string/title_activity_contacto" >
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lb.app.teatrosnchezaguilar.module.como_llegar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lb.app.teatrosnchezaguilar.module.quienes_somos"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

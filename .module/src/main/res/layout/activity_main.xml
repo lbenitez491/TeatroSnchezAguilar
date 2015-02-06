@@ -49,7 +49,6 @@
         android:layout_below="@+id/frameLayout2"
         android:layout_centerHorizontal="true" >
 
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"

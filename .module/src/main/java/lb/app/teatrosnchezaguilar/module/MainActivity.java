@@ -26,15 +26,17 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        Intent i = new Intent();
+
         switch (item.getItemId()) {
             case R.id.action_settings:
-                Intent i = new Intent();
-                i.putExtra("nombre","luis");
-                i.setClass(MainActivity.this, contacto.class);
+                i.setClass(this, MainActivity.class);
                 startActivity(i);
                 return true;
             case R.id.action_quienes_somos:
-                Log.i("ActionBar", "Guardar!");;
+                i.setClass(this, quienes_somos.class);
+                startActivity(i);
                 return true;
             case R.id.action_programacion:
                 Log.i("ActionBar", "Settings!");;
@@ -43,10 +45,12 @@ public class MainActivity extends ActionBarActivity {
                 Log.i("ActionBar", "Settings!");;
                 return true;
             case R.id.action_como_llegar:
-                Log.i("ActionBar", "Settings!");;
+                i.setClass(this, como_llegar.class);
+                startActivity(i);
                 return true;
             case R.id.action_contactenos:
-                Log.i("ActionBar", "Settings!");;
+                i.setClass(this, contacto.class);
+                startActivity(i);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
