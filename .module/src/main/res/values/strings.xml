@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Teatro Sánchez Aguilar</string>
+    <string name="hello_world">Test Teatro</string>
+    <string name="action_inicio">Inicio</string>
+    <string name="action_quienes_somos">¿Quiénes Somos?</string>
+    <string name="action_programacion">Programación</string>
+    <string name="action_calendario_eventos">Calendario De Eventos</string>
+    <string name="action_como_llegar">Cómo Llegar</string>
+    <string name="action_contactenos">Contáctenos</string>
+    <string name="title_activity_contactenos">contactenos</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
