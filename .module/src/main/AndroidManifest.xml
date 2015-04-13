@@ -53,6 +53,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="lb.app.teatrosnchezaguilar.module.ListadoActivity"
+            android:label="@string/title_activity_listado" >
+        </activity>
     </application>
 
 </manifest>

@@ -47,23 +47,133 @@
         android:id="@+id/scrollView"
         android:layout_below="@+id/frameLayout2">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Como respuesta a la expansión de los últimos años en la vía Samborondón la Fundación Sánchez Aguilar gestionó el proyecto Teatro Sánchez Aguilar. El presidente de la Fundación, Carlos Sánchez Aguilar, concibió este proyecto para contribuir al desarrollo cultural de la comunidad de este sector.
-    El teatro es algo que tiene vida por lo que este proyecto pretende llegar a todo el público desde niños hasta adultos mayores, no sólo de Samborondón sino también de las zonas aledañas. Es un nuevo espacio que permitirá promover la cultura y el talento nacional en todas las expresiones artísticas, así también como acercar a los ecuatorianos a una programación internacional.
 
-    El Teatro Sánchez Aguilar se posiciona desde el inicio como un proyecto cultural innovador y responsable, en un ciclo de larga duración."
-            android:id="@+id/textView2"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@+id/frameLayout2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_margin="5dp"
-            android:textSize="16dp"
-            android:paddingBottom="5dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Quiénes Somos?"
+                android:id="@+id/textView9"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Como respuesta a la expansión de los últimos años en la vía Samborondón la Fundación Sánchez Aguilar gestionó el proyecto Teatro Sánchez Aguilar. El presidente de la Fundación, Carlos Sánchez Aguilar, concibió este proyecto para contribuir al desarrollo cultural de la comunidad de este sector.\n\n El teatro es algo que tiene vida por lo que este proyecto pretende llegar a todo el público desde niños hasta adultos mayores, no sólo de Samborondón sino también de las zonas aledañas. Es un nuevo espacio que permitirá promover la cultura y el talento nacional en todas las expresiones artísticas, así también como acercar a los ecuatorianos a una programación internacional.\n\n El Teatro Sánchez Aguilar se posiciona desde el inicio como un proyecto cultural innovador y responsable, en un ciclo de larga duración."
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/objetivos"
+                android:id="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_objetivos"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mision"
+                android:id="@+id/textView5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_mision"
+                android:id="@+id/textView6"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vision"
+                android:id="@+id/textView7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_vision"
+                android:id="@+id/textView8"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/frameLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:paddingBottom="5dp" />
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>

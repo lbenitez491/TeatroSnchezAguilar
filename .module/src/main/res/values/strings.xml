@@ -15,5 +15,12 @@
     <string name="title_activity_contacto">contacto</string>
     <string name="title_activity_como_llegar">como_llegar</string>
     <string name="title_activity_quienes_somos">quienes_somos</string>
+    <string name="objetivos">Objetivos</string>
+    <string name="texto_objetivos">Promover y desarrollar la creación y el intercambio cultural, a nivel cantonal,  provincial, nacional e internacional. Contribuir al desarrollo y fortalecimiento de las expresiones culturales del cantón de Samborondón y de la provincia del Guayas, en los aspectos formativos, profesionales, creativos y divulgativos. Elaborar y desarrollar una programación coherente y constante, que contribuya a la promoción y desarrollo de la cultura del cantón Samborondón en la provincia del Guayas. Organizar actividades de intercambio con agrupaciones e instituciones educativas y/o culturales de la comunidad dirigidas a estimular y complementar la labor educativa.</string>
+    <string name="mision">Misión</string>
+    <string name="texto_mision">Ser una herramienta que impulse el movimiento artístico profesional y fomente el acceso a la cultura, a través de una programación constante y de la creación de nuevos públicos; en la búsqueda del equilibrio entre excelencia y rentabilidad social y económica.</string>
+    <string name="vision">Visión</string>
+    <string name="texto_vision">Llegar a ser referencia del movimiento de las artes escénicas ecuatorianas y el escaparate de las artes escénicas internacionales, buscando la excelencia para llegar a convertirse en una institución líder en el mercado, atendiendo así su compromiso en la creación de una sociedad democrática y tolerante.</string>
+    <string name="title_activity_listado">ListadoActivity</string>
 
 </resources>
